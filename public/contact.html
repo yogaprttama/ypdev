@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>YP.dev | Web Developer</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div id="App">
+    <header class="flex justify-center pt-14">
+      <div class="logo">YP.dev</div>
+    </header>
+    <nav class="text-center mt-8 mb-10">
+      <a href="/" class="gray no-underline mx-4">Beranda</a>
+      <a href="#" class="gray no-underline mx-4">Project</a>
+      <a href="#" class="gray no-underline mx-4">Kontak Saya</a>
+    </nav>
+    <main class="w-[778px] mx-auto px-6">
+      <article id="contact">
+        <header>
+          <h1>Kontak Saya</h1>
+        </header>
+        <div class="post">
+          <p>Ada yang mau di tanyakan?</p>
+          <p class="mb-10">Yuk! tulis di bawah 👇</p>
+          <form name="contact" netlify>
+            <div class="mb-4">
+              <label>Nama</label>
+              <input type="text" name="name" />
+            </div>
+            <div class="mb-4">
+              <label>Email</label>
+              <input type="email" name="email" />
+            </div>
+            <div class="mb-4">
+              <label>Pesan</label>
+              <textarea rows="5" name="message"></textarea>
+            </div>
+            <div class="mb-4">
+              <button type="submit">Kirim Pesan</button>
+            </div>
+          </form>
+        </div>
+      </article>
+    </main>
+    <footer class="mt-10 mb-5">
+      <div class="gray text-sm text-center">Copyright © 2022 - Yoga Pratama</div>
+    </footer>
+  </div>
+</body>
+</html>
